@@ -1,9 +1,9 @@
 package com.example.demo.entity;
 
-import jakarata.persistence.Entity;
-import jakarata.persistence.GeneratedValue;
-import jakarata.persistence.GenerationType;
-import jakarata.persistence.Id;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
 @Entity
 public class stuentity{
