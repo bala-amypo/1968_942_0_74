@@ -9,7 +9,7 @@ import com.example.demo.service.Studentservice;
 @service
 public class StudentserviceImpl implements Studentservice{
     @Autowired
-    StudentRepository StudentRepository;
+    StudentRepository studentRepository;
 
     public stuentity saveStudent(stuentity stuentity){
         return StudentRepository.save(stuentity);
