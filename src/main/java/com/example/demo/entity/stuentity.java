@@ -26,6 +26,7 @@ public class stuentity{
     public void setName(String name){
         this.name=name;
     }
+    
     public String getEmail(){
         return email;
     }
@@ -43,9 +44,10 @@ public class stuentity{
         this.name=name;
         this.email=email;
         this.cgpa=cgpa;
+
     }
     public stuentity(){
-        
+
     }
 
 }
